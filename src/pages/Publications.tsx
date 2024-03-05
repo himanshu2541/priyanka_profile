@@ -1,5 +1,7 @@
+import {Animation} from "../animatedRoutes";
+
 export const Publications = () => {
   return (
-    <>Publications page.</>
+    <Animation>Publications page.</Animation>
   );
 };

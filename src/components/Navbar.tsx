@@ -20,9 +20,9 @@ export const Navbar = () => {
   ]
 
   const dropDownLink: navlinksProps[] = [
-    {title: "Articles", to: "/articles"},
-    {title: "Book Reviews", to: "/book-reviews"},
-    {title: "Translations", to: "/translations"}
+    {title: "Articles", to: "/publications/articles"},
+    {title: "Book Reviews", to: "/publications/book-reviews"},
+    {title: "Translations", to: "/publications/translations"}
   ]
 
 

@@ -46,9 +46,9 @@ export const Dropdown = ({items, children}: {
 
         {
           items.length> 0 &&(
-            items.map((item) => {
+            items.map((item, index) => {
               return (
-                <Link to={item.to} className={`text-nowrap`} hidden={!show}>{item.title}</Link>
+                <Link to={item.to} className={`text-nowrap`} hidden={!show} key={index}>{item.title}</Link>
               )
             })
           )
